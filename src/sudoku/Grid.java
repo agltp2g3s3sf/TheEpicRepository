@@ -31,7 +31,6 @@ import java.io.*;
 public class Grid implements Cloneable {
     // Array that contains values of all 81 cells in the grid.
     int[] cells = new int[81];
-    int i;
     // A set of bit-vectors that represent the known values for each column.
     // Specifically, if column c contains the digits d1 and d2,
     //   colsSet[c] = 2^(d1-1)|2^(d2-1)
